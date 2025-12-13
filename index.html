@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Voxify</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- Navigation -->
+<header class="navbar">
+    <div class="logo">Voxify</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Help</a>
+    </nav>
+</header>
+
+<!-- Main section -->
+<section class="hero">
+    <div class="card">
+
+        <h3>Enter the text here...</h3>
+
+        <textarea id="textinput"
+        placeholder="Type or paste your text content here to convert it to speech..."></textarea>
+
+        <div class="controls">
+
+    <!-- Buttons Row -->
+    <div class="top-controls">
+        <button id="speakBtn">🔊 Convert To Speech</button>
+        <button id="stopBtn">⏹ Stop</button>
+        <button id="resumeBtn">▶ Resume</button>
+    </div>
+
+    <!-- Voice -->
+    <div class="control-item">
+        <label for="voiceSelect">Voice:</label>
+        <select id="voiceSelect"></select>
+    </div>
+
+</div>
+
+        <p class="status">
+            Ready. Enter text and click "Convert" to hear it.
+        </p>
+
+    </div>
+</section>
+
+<!-- Footer -->
+<footer>
+    © 2024 WebTTS Tools
+</footer>
+
+<!-- JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>
