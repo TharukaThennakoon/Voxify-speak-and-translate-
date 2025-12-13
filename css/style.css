@@ -80,3 +80,28 @@ textarea{
     gap:15px;
     flex-wrap:wrap;
 }
+#speakBtn {
+    grid-column: 1;
+}
+
+#stopBtn {
+    grid-column: 2;
+}
+
+.control-item:nth-of-type(1) {
+    grid-column: 3;
+}
+
+.control-item:nth-of-type(2) {
+    grid-column: 1;
+}
+
+.control-item:nth-of-type(3) {
+    grid-column: 2;
+}
+
+.voice-select{
+    display:flex;
+    align-items:center;
+    gap:8px;
+}
