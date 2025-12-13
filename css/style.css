@@ -67,3 +67,16 @@ textarea{
     resize: none;
     margin-bottom: 20px;
 }
+.controls{
+    display:flex;
+    flex-direction:column;
+    gap:15px;
+}
+
+.top-controls{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:15px;
+    flex-wrap:wrap;
+}
