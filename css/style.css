@@ -134,3 +134,17 @@ button:hover{
 .control-item input{
     margin-top: 5px;
 }
+.status{
+    margin-top: 15px;
+    font-size: 14px;
+    color: #555;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    color: #666;
+    background: rgb(182, 213, 244);
+    box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+}
