@@ -11,4 +11,11 @@ body{
     background: rgb(182, 213, 244);
     
 }
-
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: rgb(182, 213, 244);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
