@@ -32,3 +32,10 @@ body{
 .navbar nav a:hover{
     color: blue;
 }
+.hero{
+    height: 80vh;
+    background: url("https://www.bankrate.com/2022/01/14162843/Untitled-20.jpeg") no-repeat center center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
