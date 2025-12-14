@@ -24,3 +24,26 @@ window.speechSynthesis.onvoiceschanged = () => {
         speech.voice = voices[0];
     }
 };
+// Change voice
+voiceSelect.addEventListener("change", () => {
+    speech.voice = voices[voiceSelect.value];
+});
+
+// Speak
+speakBtn.addEventListener("click", () => {
+
+    let text = textInput.value.trim();
+
+    if (text === "") {
+        alert("Please enter text!");
+        return;
+    }
+
+    speech.text = text;
+
+    // Cancel previous speech
+    window.speechSynthesis.cancel();
+
+    // Speak
+    window.speechSynthesis.speak(speech);
+});
