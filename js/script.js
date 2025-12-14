@@ -47,3 +47,12 @@ speakBtn.addEventListener("click", () => {
     // Speak
     window.speechSynthesis.speak(speech);
 });
+// Stop (pause)
+stopBtn.addEventListener("click", () => {
+    window.speechSynthesis.pause();
+});
+
+// Resume
+resumeBtn.addEventListener("click", () => {
+    window.speechSynthesis.resume();
+});
